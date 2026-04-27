@@ -30,7 +30,7 @@ A solução propõe a implementação de um banco de dados robusto, capaz de arm
 ## 🏗️ Diagrama do Banco de Dados
 
 <p align="center">
-  <img src="docs/diagrama_biblioteca.png" width="700"/>
+  <img src="docs/diagrama_biblioteca.png" width="700"/>     
 </p>
 
 ## 📌 Arquitetura do Sistema
