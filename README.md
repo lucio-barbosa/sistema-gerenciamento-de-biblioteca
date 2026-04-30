@@ -1,6 +1,3 @@
-Aqui está um **README profissional**, bem estruturado e pronto para GitHub, baseado no seu contexto:
-
----
 
 # 📚 Sistema de Gerenciamento de Biblioteca
 
