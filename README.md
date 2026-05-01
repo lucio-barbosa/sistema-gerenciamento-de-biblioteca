@@ -188,7 +188,6 @@ ORDER BY total DESC;
 
 Este projeto é de uso educacional e pode ser adaptado para fins acadêmicos e profissionais.
 
-````
 
 
 
