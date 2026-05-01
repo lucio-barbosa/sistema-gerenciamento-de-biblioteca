@@ -24,17 +24,56 @@ A solução propõe a implementação de um banco de dados robusto, capaz de arm
 
 ---
 
-## 🏗️ Diagrama do Banco de Dados
+# 🧠 Modelagem de Dados
+
+A modelagem deste sistema foi desenvolvida em três níveis fundamentais da Engenharia de Dados:
+
+---
+
+## 🔵 Modelo Conceitual
+
+Representa a visão de negócio do sistema, destacando entidades e relacionamentos principais.
+
+<p align="center">
+  <img src="docs/modelo_conceitual.png" width="700"/>
+</p>
+
+---
+
+## 🟢 Modelo Lógico
+
+Define a estrutura do banco de dados com atributos, chaves primárias e estrangeiras.
+
+<p align="center">
+  <img src="docs/modelo_logico.png" width="700"/>
+</p>
+
+---
+
+## 🟣 Modelo Físico
+
+Representa a implementação real no banco de dados, incluindo tipos de dados e constraints.
+
+<p align="center">
+  <img src="docs/modelo_fisico.png" width="700"/>
+</p>
+
+---
+
+## 🏗️ Diagrama Geral do Banco
 
 <p align="center">
   <img src="docs/diagrama_biblioteca.png" width="700"/>     
 </p>
 
+---
+
 ## 📌 Arquitetura do Sistema
 
-Este sistema utiliza um modelo relacional com foco em integridade e escalabilidade.
-O diagrama acima representa as entidades principais e seus relacionamentos.
+Este sistema utiliza um modelo relacional com foco em integridade e escalabilidade.  
+Os diagramas acima representam a evolução da modelagem até a implementação final no banco de dados.
 
+---
 
 ## 🏗️ Estrutura do Sistema
 
@@ -82,7 +121,7 @@ CREATE TABLE emprestimo (
     FOREIGN KEY (id_livro) REFERENCES livro(id_livro),
     FOREIGN KEY (id_funcionario) REFERENCES funcionario(id_funcionario)
 );
-```
+````
 
 ---
 
@@ -121,12 +160,14 @@ ORDER BY total DESC;
 * 🐬 MySQL (Banco de Dados)
 * 💻 SQL
 * 🧠 Modelagem de Dados
+* BRModelo
+* Draw.io
 
 ---
 
 ## 📈 Possíveis Melhorias
 
-* Interface Web (React, Django ou Flask)
+* Interface Web (Django ou Flask)
 * API REST para integração
 * Sistema de autenticação de usuários
 * Dashboard com gráficos e indicadores
@@ -139,12 +180,20 @@ ORDER BY total DESC;
 **Lúcio Fábio Barbosa de Lima**
 📧 [engenheirodedados.luciofabio@gmail.com](mailto:engenheirodedados.luciofabio@gmail.com)
 
-🔗 LinkedIn: *([LinkedIn](https://linkedin.com/in/lúcio-fábio-barbosa) )*
+🔗 LinkedIn: [https://linkedin.com/in/lúcio-fábio-barbosa](https://linkedin.com/in/lúcio-fábio-barbosa)
 
 ---
 
 ## 📄 Licença
 
 Este projeto é de uso educacional e pode ser adaptado para fins acadêmicos e profissionais.
+
+````
+
+
+
+
+
+
 
 
